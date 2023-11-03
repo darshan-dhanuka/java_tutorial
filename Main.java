@@ -1,3 +1,4 @@
+import java.util.Date;
 
 public class Main{
 
@@ -7,7 +8,9 @@ public class Main{
         float price = 10.99F;
         char letter = 'A';
         boolean isEligible = true;
-        System.out.println(viewCount);
+        Date now = new Date();
+        now.getTime();
+        System.out.println(now);
     }
 }
 
