@@ -18,8 +18,9 @@ public class Main{
         point1.x = 2;
         System.out.println(point2);
 
-        String message =  "Hello World";
-        System.out.println(message);
+        String message =  "Hello World" + "!!";
+        
+        System.out.println(message.indexOf("o"));
     }
 }
 
