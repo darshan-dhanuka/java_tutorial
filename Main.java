@@ -20,7 +20,8 @@ public class Main{
 
         String message =  "Hello World" + "!!";
         
-        System.out.println(message.indexOf("o"));
+        System.out.println(message.replace("!","*"));
+        System.out.println(message);
     }
 }
 
