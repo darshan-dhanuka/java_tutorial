@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Date;
 import java.awt.*;
 
@@ -22,6 +23,21 @@ public class Main{
         
         System.out.println(message.replace("!","*"));
         System.out.println(message);
+
+        int[] numbers = new int[5];
+
+        numbers[0] = 1;
+        numbers[1] = 2;
+        
+        
+        System.out.println(Arrays.toString(numbers));
+
+        int[] numbers_pre = {2,3,4,5,6};
+
+        System.out.println(numbers_pre.length);
+
+        int[][] multiArr = {{1,2,2},{4,5,6}};
+        System.out.println(Arrays.deepToString(multiArr));
     }
 }
 
