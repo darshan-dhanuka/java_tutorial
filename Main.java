@@ -38,6 +38,22 @@ public class Main{
 
         int[][] multiArr = {{1,2,2},{4,5,6}};
         System.out.println(Arrays.deepToString(multiArr));
+
+        //constant value using final keyword .
+        final float PI = 3.14F;
+
+        //Implicit casting (Automatic type conversion)
+        //byte > short > int > long > float > double 
+        short x = 1;
+        int y = x + 2;
+        System.out.println(y);;
+
+
+        //Explicit casting (We convert type for our purposes)
+
+        double dx = 3.1;
+        int dy = (int)dx + 2;
+        System.out.println(dy);
     }
 }
 
